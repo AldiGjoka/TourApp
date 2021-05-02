@@ -1,0 +1,83 @@
+.card {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    border: 1px rgb(221, 204, 204) solid;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.nameInfo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.showMore {
+    background: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+    color: hsl(205, 78%, 60%);
+    font-size: 1rem;
+    cursor: pointer;
+    padding-left: 0.25rem;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.underline {
+    width: 6rem;
+    height: 0.25rem;
+    background: hsl(205, 78%, 60%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addBtn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 2rem auto 2rem auto;
+    color: hsl(360, 67%, 44%);
+    letter-spacing: 0.1rem;
+    background: transparent;
+    border: 1px solid hsl(360, 67%, 44%);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.addBtn:hover {
+    background-color: hsl(360, 67%, 44%);
+    color: #fff;
+}
+
+.fillForm input, textarea{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.fillForm {
+    padding: 20px;
+    text-align: left;
+}
+  
