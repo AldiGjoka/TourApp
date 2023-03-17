@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TourApp
+  annotations:
+    github.com/project-slug: AldiGjoka/TourApp
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
